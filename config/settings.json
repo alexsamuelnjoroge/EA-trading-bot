@@ -1,0 +1,52 @@
+{
+    "mt5": {
+        "account": 0,
+        "password": "your_password_here",
+        "server": "MetaQuotes-Demo"
+    },
+    "trading": {
+        "symbols": ["EURUSD", "GBPUSD", "USDJPY"],
+        "timeframe": "H1",
+        "process_interval": 60,
+        "enabled_strategies": ["TrendFollowing", "MeanReversion"]
+    },
+    "risk": {
+        "daily_loss_limit": -500,
+        "max_drawdown": 0.20,
+        "risk_per_trade": 0.02,
+        "kelly_factor": 0.25,
+        "max_position_size_pct": 0.10,
+        "min_rr_ratio": 1.5
+    },
+    "regime_detector": {
+        "volatility_period": 14,
+        "trend_period": 20,
+        "momentum_period": 14,
+        "high_volatility_threshold": 1.5,
+        "low_volatility_threshold": 0.8,
+        "strong_trend_threshold": 0.7
+    },
+    "strategies": {
+        "TrendFollowing": {
+            "fast_ma_period": 10,
+            "slow_ma_period": 20,
+            "adx_period": 14,
+            "adx_threshold": 25,
+            "stop_loss_pips": 50,
+            "take_profit_pips": 150
+        },
+        "MeanReversion": {
+            "bb_period": 20,
+            "bb_std_dev": 2,
+            "rsi_period": 14,
+            "rsi_overbought": 70,
+            "rsi_oversold": 30
+        }
+    },
+    "monitoring": {
+        "enable_dashboard": false,
+        "dashboard_port": 5000,
+        "log_file": "logs/ea_trading.log",
+        "trade_journal_file": "data/results/trades.json"
+    }
+}

@@ -1,0 +1,39 @@
+# Core Trading & Data
+MetaTrader5==5.0.45
+pandas==2.1.4
+numpy==1.24.3
+pandas-ta==0.3.14b0
+
+# Backtesting
+backtrader==1.9.94.1
+
+# Web Dashboard
+Flask==3.0.0
+Flask-SocketIO==5.3.5
+python-socketio==5.9.0
+
+# Data & Analysis
+scipy==1.11.4
+scikit-learn==1.3.2
+statsmodels==0.14.0
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+pytz==2023.3
+requests==2.31.0
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-asyncio==0.21.1
+
+# Visualization
+matplotlib==3.8.2
+plotly==5.18.0
+
+# Database
+SQLAlchemy==2.0.23
+
+# Logging & Monitoring
+python-json-logger==2.0.7

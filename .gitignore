@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Data & Results
+data/historical/*.csv
+data/results/*.json
+data/results/*.csv
+*.db
+*.sqlite
+*.sqlite3
+
+# MT5
+*.log
+*.ex5
+*.mq5
+
+# Configuration (local overrides)
+config/settings.local.json
+config/secrets.json
+.env
+.env.local
+
+# Cache
+.cache/
+*.cache
+
+# Output
+output/
+logs/
